@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1422642328/photo/white-concrete-texture-polished-wall-background-grey-retro-plain-color-cement-crack-have-sand.webp?b=1&s=170667a&w=0&k=20&c=3c1Sl6QKre4BFLDDweQSaJliRAKMyV3I95y9ERcPu6I=);
+    font-family: Verdana;
+    font-size: 2em;
+    color: aliceblue;
+}
+#mySubmit {
+    font-size: 1em;
+}
+.mainbox{
+
+    margin: 50px auto;
+    text-align: center;
+    width: 550px;
+    height: 450px;
+    background-color: rgb(208, 68, 68);
+    border-radius: 25px;
+    border: 10px solid rgb(242, 122, 48);
+}
+h1{
+    color:cadetblue;
+  text-align: center;
+}
