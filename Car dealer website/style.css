@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url(backgroud.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 0px 160px;
+}
+.logo{
+    width: 140px;
+    height: 130px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px hsl(0, 13%, 19%);
+}
+.shopCart{
+    width: 40px;
+    height: 40px;
+}
