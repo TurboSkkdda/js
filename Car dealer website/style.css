@@ -14,12 +14,50 @@ body{
     margin: 0px 160px;
 }
 .logo{
+    margin-right: 25px;
     width: 140px;
     height: 130px;
     border-radius: 10%;
     box-shadow: 5px 5px 5px hsl(0, 13%, 19%);
 }
 .shopCart{
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    border-radius: 25%;
+    width: 30px;
+    height: 30px;
+}
+.headerLine{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+    margin-right: 25px;
+
+}
+.cart{
+    position: relative;
+    border-right: 1px solid;
+    padding-right:20px;
+    height: 50px;
+}
+.num{
+    color: black;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-weight: 850;
+}
+.phonetext{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+
 }
