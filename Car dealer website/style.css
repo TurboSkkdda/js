@@ -100,3 +100,47 @@ body{
 .btnStyle:hover{
     color: lightcyan;
 }
+.header-down{
+    position: relative;
+    margin-left: 40%;
+}
+.header-title{
+    position: absolute;
+    
+    text-align: center;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    
+    
+}
+.header-subtitle{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.header-suptitle{
+   
+    font-size: 20px;
+}
+.header-suptitle::after{
+    position: absolute;
+    content: " ";
+    height: 2px;
+    width: 61px;
+    background-color: black;
+    top: 136px;
+    left: -40px;
+}
+.header-suptitle::before{
+    position: absolute;
+    content: " ";
+    height: 2px;
+    width: 61px;
+    background-color: black;
+    top: 136px;
+    left: 258px;
+}
