@@ -20,13 +20,13 @@ body{
     border-radius: 10%;
     box-shadow: 5px 5px 5px hsl(0, 13%, 19%);
 }
-.shopCart{
+.fa-solid{
+    color: aliceblue;
     position: absolute;
-    top: 12px;
+    top: 18px;
     right: 7px;
-    border-radius: 25%;
     width: 30px;
-    height: 30px;
+    height: 400px;
 }
 .headerLine{
     padding-top: 40px;
@@ -91,7 +91,7 @@ body{
 }
 
 .btnStyle{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Kanit", sans-serif;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -143,4 +143,50 @@ body{
     background-color: black;
     top: 136px;
     left: 258px;
+}
+.card{
+    position: relative;
+    background-color: beige;
+    width:310px;
+    height:250px;
+    border-radius: 15%;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.cards-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-bomb{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: sienna;
+}
+.fa-file{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: sienna;
+}
+.fa-gift{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: sienna;
+}
+.text1{
+    border: 2px dotted;
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    text-wrap: nowrap;
+    padding: 10px;
+}
+.special{
+    margin-top: 100px;
 }
